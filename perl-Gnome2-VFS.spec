@@ -8,7 +8,7 @@ Summary(pl):	Dowi±zania Perla dla biblioteki GNOME Virtual File System
 Name:		perl-%{pnam}
 Version:	1.001
 Release:	1
-License:	GPL
+License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
 # Source0-md5:	f13dac003e785c7aee8110f980ea851c
