@@ -13,7 +13,7 @@ Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
 # Source0-md5:	c6539446e64496706980eb932820a144
 URL:		http://gtk2-perl.sf.net/
-BuildRequires:	libwnck-devel
+BuildRequires:	gnome-vfs2-devel >= 2.0.0
 BuildRequires:	perl-ExtUtils-Depends >= 0.1
 BuildRequires:	perl-ExtUtils-PkgConfig >= 1.00
 BuildRequires:	perl-Glib >= 1.013
