@@ -6,12 +6,12 @@
 Summary:	Perl bindings for the Gnome Virtual File System
 Summary(pl):	Dowi±zania perla dla biblioteki Gnome Virtual File System
 Name:		perl-%{pnam}
-Version:	0.94
+Version:	0.96
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
-# Source0-md5:	931643af0236e08c030982186c7bce7b
+# Source0-md5:	39714e0b239172f9cbd35667f69957b4
 URL:		http://gtk2-perl.sf.net/
 BuildRequires:	gnome-vfs2-devel >= 2.0.0
 BuildRequires:	perl-ExtUtils-Depends >= 0.201
