@@ -16,8 +16,8 @@ URL:		http://gtk2-perl.sf.net/
 BuildRequires:	gnome-vfs2-devel >= 2.0.0
 BuildRequires:	perl-ExtUtils-Depends >= 0.1
 BuildRequires:	perl-ExtUtils-PkgConfig >= 1.00
-BuildRequires:	perl-Glib >= 1.020
-BuildRequires:	perl-Gtk2 >= 1.021
+BuildRequires:	perl-Glib >= 1.021
+BuildRequires:	perl-Gtk2 >= 1.023
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
