@@ -3,7 +3,7 @@
 %bcond_with	tests	# perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pnam	Gnome2-VFS
+%define		pnam	Gnome2-VFS
 Summary:	Perl bindings for the GNOME Virtual File System
 Summary(pl):	Dowi±zania Perla dla biblioteki GNOME Virtual File System
 Name:		perl-Gnome2-VFS
