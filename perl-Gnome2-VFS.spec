@@ -5,7 +5,7 @@
 %define	pnam	Gnome2-VFS
 Summary:	Perl bindings for the GNOME Virtual File System
 Summary(pl):	Dowi±zania Perla dla biblioteki GNOME Virtual File System
-Name:		perl-%{pnam}
+Name:		perl-VFS
 Version:	1.001
 Release:	1
 License:	LGPL
