@@ -26,11 +26,11 @@ Requires:	perl-Gtk2 >= 1.040
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The VFS module allows a perl developer to use the Gnome Virtual File
+The VFS module allows a perl developer to use the GNOME Virtual File
 System.
 
 %description -l pl
-Modu³ VFS pozwala programistom perlowym na u¿ywanie biblioteki Gnome
+Modu³ VFS pozwala programistom perlowym na u¿ywanie biblioteki GNOME
 Virtual File System.
 
 %prep
