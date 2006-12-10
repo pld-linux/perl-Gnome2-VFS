@@ -7,12 +7,12 @@
 Summary:	Perl bindings for the GNOME Virtual File System
 Summary(pl):	Dowi±zania Perla dla biblioteki GNOME Virtual File System
 Name:		perl-Gnome2-VFS
-Version:	1.060
-Release:	3
+Version:	1.061
+Release:	1
 License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
-# Source0-md5:	1c3ee81d2e1f21cbc81f8005d6ffd0ee
+# Source0-md5:	2a9b4f0f380873265bd87754e5f17719
 URL:		http://gtk2-perl.sourceforge.net/
 BuildRequires:	gnome-vfs2-devel >= 2.14.1
 BuildRequires:	perl-ExtUtils-Depends >= 0.201
@@ -49,21 +49,21 @@ Virtual File System.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install \
+%{__make} pure_install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-rm -f $RPM_BUILD_ROOT%{perl_vendorarch}/Gnome2/VFS/{*,*/*}.pod
+rm -f $RPM_BUILD_ROOT%{perl_vendorarch}/Gnome2/VFS/{*,*/*,*/*/*}.pod
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog
-%dir %{perl_vendorarch}/auto/Gnome2/VFS
+%doc ChangeLog NEWS README
 %dir %{perl_vendorarch}/Gnome2/VFS
-%attr(755,root,root) %{perl_vendorarch}/auto/Gnome2/VFS/*.so
-%{perl_vendorarch}/auto/Gnome2/VFS/*.bs
 %{perl_vendorarch}/Gnome2/VFS/Install
 %{perl_vendorarch}/Gnome2/*.pm
+%dir %{perl_vendorarch}/auto/Gnome2/VFS
+%attr(755,root,root) %{perl_vendorarch}/auto/Gnome2/VFS/*.so
+%{perl_vendorarch}/auto/Gnome2/VFS/*.bs
 %{_mandir}/man3/*
