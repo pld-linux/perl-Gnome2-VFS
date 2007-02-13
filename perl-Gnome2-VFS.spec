@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pnam	Gnome2-VFS
 Summary:	Perl bindings for the GNOME Virtual File System
-Summary(pl.UTF-8):   Dowiązania Perla dla biblioteki GNOME Virtual File System
+Summary(pl.UTF-8):	Dowiązania Perla dla biblioteki GNOME Virtual File System
 Name:		perl-Gnome2-VFS
 Version:	1.061
 Release:	1
