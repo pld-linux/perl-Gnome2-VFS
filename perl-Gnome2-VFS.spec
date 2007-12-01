@@ -7,12 +7,12 @@
 Summary:	Perl bindings for the GNOME Virtual File System
 Summary(pl.UTF-8):	Dowiązania Perla dla biblioteki GNOME Virtual File System
 Name:		perl-Gnome2-VFS
-Version:	1.061
+Version:	1.080
 Release:	1
-License:	LGPL
+License:	LGPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
-# Source0-md5:	2a9b4f0f380873265bd87754e5f17719
+# Source0-md5:	a01ce775f19040276eae4f9e5ca6a59c
 URL:		http://gtk2-perl.sourceforge.net/
 BuildRequires:	gnome-vfs2-devel >= 2.14.1
 BuildRequires:	perl-ExtUtils-Depends >= 0.201
@@ -66,4 +66,4 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/Gnome2/VFS
 %attr(755,root,root) %{perl_vendorarch}/auto/Gnome2/VFS/*.so
 %{perl_vendorarch}/auto/Gnome2/VFS/*.bs
-%{_mandir}/man3/*
+%{_mandir}/man3/Gnome2::VFS*.3pm*
