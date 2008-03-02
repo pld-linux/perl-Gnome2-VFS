@@ -3,16 +3,17 @@
 %bcond_with	tests	# perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pnam	Gnome2-VFS
+%define		pdir	Gnome2
+%define		pnam	VFS
 Summary:	Perl bindings for the GNOME Virtual File System
 Summary(pl.UTF-8):	Dowiązania Perla dla biblioteki GNOME Virtual File System
 Name:		perl-Gnome2-VFS
-Version:	1.080
-Release:	2
+Version:	1.081
+Release:	1
 License:	LGPL v2+
 Group:		Development/Languages/Perl
-Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
-# Source0-md5:	a01ce775f19040276eae4f9e5ca6a59c
+Source0:	http://www.cpan.org/modules/by-module/Gnome2/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	3d220cbbe9f1ebc78d7047593f9cd633
 URL:		http://gtk2-perl.sourceforge.net/
 BuildRequires:	gnome-vfs2-devel >= 2.14.1
 BuildRequires:	perl-ExtUtils-Depends >= 0.201
@@ -35,7 +36,7 @@ Moduł VFS pozwala programistom perlowym na używanie biblioteki GNOME
 Virtual File System.
 
 %prep
-%setup -q -n %{pnam}-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 %{__perl} Makefile.PL \
