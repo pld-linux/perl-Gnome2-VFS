@@ -67,5 +67,4 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Gnome2/*.pm
 %dir %{perl_vendorarch}/auto/Gnome2/VFS
 %attr(755,root,root) %{perl_vendorarch}/auto/Gnome2/VFS/*.so
-%{perl_vendorarch}/auto/Gnome2/VFS/*.bs
 %{_mandir}/man3/Gnome2::VFS*.3pm*
