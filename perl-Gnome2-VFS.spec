@@ -9,7 +9,7 @@ Summary:	Perl bindings for the GNOME Virtual File System
 Summary(pl.UTF-8):	Dowiązania Perla dla biblioteki GNOME Virtual File System
 Name:		perl-Gnome2-VFS
 Version:	1.081
-Release:	6
+Release:	7
 License:	LGPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Gnome2/%{pdir}-%{pnam}-%{version}.tar.gz
