@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Gnome2
 %define		pnam	VFS
 Summary:	Perl bindings for the GNOME Virtual File System
